@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #23252C;
+  height: 100vh;
+  min-width: 400px;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  height: 780px;
+  width: 317px;
+}
+
+.card--container {
+  height: 100vh;
+  width: 90%;
+}
+
+.info--section {
+  background-color: #1A1B21;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+}
+
+.info--container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.info--title {
+  padding-top: .5em;
+  padding-bottom: .3em;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 30px;
+
+}
+
+.info--role {
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 15px;
+  color: #F3BF99;
+  margin-top: 0.5em;
+}
+
+.info--portfolio {
+padding-top: 1em;
+font-weight: 400;
+font-size: 1em;
+line-height: 150%;
+color: #F5F5F5;
+text-decoration: none;
+}
+
+
+
+.profile-photo {
+  height: 57vh;
+  width: 100%;
+  background-image: url('./assets/profilepic.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+
+.btn {
+  padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin: 1.5em;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
+.description--title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 150%;
+  color: #F5F5F5;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.description--paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 150%;
+  color: #DCDCDC;
+  word-wrap: break-word;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-align: left;
+}
+
+.description--container {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+
+.email {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.linkedin {
+  background: #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+}
